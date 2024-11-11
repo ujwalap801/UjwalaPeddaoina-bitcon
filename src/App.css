@@ -1,0 +1,132 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; 
+  background-color: #f3f4f6; 
+}
+
+.app-container {
+  width: 100%;
+  max-width: 400px; 
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-button {
+  font-size: 24px;
+  background-color: #62b6cb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-box {
+  margin: 20px 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-button, .all-contacts-button {
+  font-size: 24px;
+  background-color: #62b6cb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.all-contacts-button {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.all-contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.contact-card {
+  background-color: #f3f4f6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.contact-card p {
+  margin: 5px 0;
+  color: #555;
+}
